@@ -14,7 +14,7 @@ This is called **Minkowski problem** raised 100 years ago. Its result deeply inf
 
 ```
 using Pkg
-Pkg.add.(["LinearAlgebra", "Polyhedra", "QHull", "Makie"])
+Pkg.add.(["QuartzImageIO", "Polyhedra", "QHull", "Makie"])
 Pkg.clone("https://github.com/NanFangHong/EGI.jl")
 ```
 
