@@ -21,6 +21,10 @@ Pkg.clone("https://github.com/NanFangHong/EGI.jl")
 
 The package **EGI.jl** can let you play with Minkowski problem effortlessly. 
 
+```
+using EGI
+```
+
 1. It defines a type called **ExtendedGaussImage**. You can either input your own EGI, e.g. 
 
 ```
