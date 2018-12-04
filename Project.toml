@@ -1,0 +1,6 @@
+authors = ["NanFangHong <yuiuiuiuiui@gmail.com>"]
+name = "EGI"
+uuid = "603ffe4c-f751-11e8-3897-11d37d6fd32e"
+version = "0.1.0"
+
+[deps]
