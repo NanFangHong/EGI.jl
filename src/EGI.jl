@@ -1,6 +1,6 @@
 module EGI
 
-using LinearAlgebra, Polyhedra, QHull, Makie
+#using Polyhedra, QHull, Makie
 export ExtendedGaussImage, Surface, Volume, Polyhedron, Normal, randPolyhedron, RenderPolyhedron, Little, SavePolyhedronArray
 
 struct ExtendedGaussImage
