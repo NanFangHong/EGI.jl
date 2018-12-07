@@ -1,10 +1,10 @@
 # Introduction
 
-Suppose you need to recover the shape of a convex polyhedron, but all you know is the **normal** and **area** of each surface. Can you do that?
+Suppose now you have to recover the shape of a convex polyhedron, but you only know the **normal** and **area** of each surface. Is it possible?
 
 The answer is **yes**.
 
-This is called **Minkowski problem** raised 100 years ago. Its result deeply influenced the development of modern geometry. It was proved that any convex object can be uniquely determined by its surface normal and surface area. In another words, one may store a convex 3-D object only by its surface normal and surface area. Such representation is called **Extended Gauss Image (EGI)**, which is broadly used for 3-D object alignment and recognition.
+This is called **Minkowski problem** raised 100 years ago. Its result deeply influenced the development of modern geometry. It has been proven that any convex object can be uniquely determined by its surface normal and surface area. In another word, one may store a convex 3-D object by its surface normal and surface area. Such representation is called **Extended Gauss Image (EGI)**, which is broadly used for 3-D object alignment and recognition.
 
 ![1](https://github.com/NanFangHong/EGI.jl/blob/master/assets/Picture1.png)
 
@@ -50,7 +50,7 @@ RenderPolyhedron(p)
 ```
 
 
-3. You can have access to surface area, surface normal, volume by, 
+3. You can have access to the surface area, surface normal, volume by, 
 
 ```
 Surface(p)
